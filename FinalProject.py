@@ -15,7 +15,7 @@ def setting_cctv_file(_cctv_table):
     _cctv_table.to_csv("./서울시 자치구 목적별 CCTV 설치 현황_가공.csv", encoding="cp949", mode='w', index=True)
 
 
-# accident.csv파일 가공
+
 def setting_accident_file(_accident_table):
     _accident_table = _accident_table.drop(_accident_table.index[0])
     _accident_table = _accident_table.dropna()
