@@ -1,8 +1,14 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from matplotlib import font_manager, rc
-import numpy as np
+# 0) import 설정
+## import pandas as pd
+> 데이타 분석을 위한 라이브러리 패키지
+## import matplotlib.pyplot as plt
+> 데이터를 시각화하기 위한 패키지
+## import seaborn as sns
+> 데이터 분포를 시각화하기 위한 패키지
+## from matplotlib import font_manager, rc
+> 한글 설정을 위한 패키지
+## import numpy as np
+> 수치계산을 위한 라이브러리
 
 # 1) 한글 설정
 ## font_name = font_manager.FontProperties(fname="c:/Windows/Fonts/malgun.ttf").get_name()
