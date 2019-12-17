@@ -86,8 +86,8 @@ merge_table['cctv수 범위'] = merge_table['어린이 보호 cctv수'].apply(cc
 > cctv범위의 고유값만큼 for 반복문 실행
 ## myData_j = []
 > 이차원 배열을 사용하기 위해, '열'부분 데이터를 담을 배열(='myData_j') 선언
-## for j in range(2):
-> range()범위(=3) 만큼 반복문 실행
+## for j in range(1):
+> range()범위만큼 반복문 실행
 ## totalSum = _merged_table['어린이보호구역내 어린이 교통사고 발생건수'][_merged_table['cctv수 범위'] == i].sum()
 > cctv범위 값이 i(= 0~5)일때 해당 지역의 어린이 교통사고 발생건수 총합
 ## totalCount = _merged_table['어린이 보호 cctv수'][_merged_table['cctv수 범위'] == i].count()
